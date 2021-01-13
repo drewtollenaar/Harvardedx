@@ -10,6 +10,7 @@ library(ggrepel)
 library(GGally)
 library(ggridges)
 library(gridExtra)
+?cat
 
 gapminder %>% 
   filter(year == 2015 & country %in% c("Sri Lanka", "Turkey")) %>% 
@@ -394,4 +395,4 @@ gapminder_Africa_2010 %>%
 
 
 
-
+testing123 <- 123
